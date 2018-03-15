@@ -6,7 +6,11 @@
  (e.g. tagging, descriptions, colors, adult/racy restrictions etc).
  
  Finally, it uses a scenario where the owner of the item submits a Lost/Found report, and Azure Text Analytics automatically 
- extracts key phrases to search if the item was found.  To do this, it you uses Azure Search Services to index data in the Cosmos DB
- and uses Lucene Fuzzy searchs for identity a match base of the key phrase.
+ extracts key phrases to search if the item was found.  To do this, it you uses Azure Search Services to index data in the Cosmos DB and uses Lucene Fuzzy searchs for identity a match base of the key phrase.
  
+ #Prerequisties
  
+ - Create an Azure Storage account.  Create a Blob container for the images.  The copy the Keys -> "Connectin String" and paste in the jave code
+ - Create an Aure  Computer Vision API. The copy the Keys and paste in the Java Code
+ - Create an Aure  the the (No SQL) Cosmos DB instance. An store the JSON results in the DB.
+ - Create an Azure Search Service and chose a data to create an indexer aganist it.
