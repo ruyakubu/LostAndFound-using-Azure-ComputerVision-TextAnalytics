@@ -14,4 +14,4 @@
  - Create an Aure  Computer Vision API. The copy the Keys and paste in the Java Code
  - Create an Aure  the the (No SQL) Cosmos DB instance. An store the JSON results in the DB.
  - Create an Azure Search Service and chose the Cosmos datasource to create an indexer aganist it.
-   E.g. https://docs.microsoft.com/en-us/azure/search/search-create-index-portal
+   E.g. https://docs.microsoft.com/azure/search/search-create-index-portal?WT.mc_id=startup-0000-ruyakubu
